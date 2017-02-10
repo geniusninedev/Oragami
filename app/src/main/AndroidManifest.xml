@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geniusnine.andriod.oragami">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/oragamililys"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Oragamii"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Traditional.TraditionalBirds"
+            android:label="Birds"/>
+        <activity android:name=".Traditional.Animals.TaditionalAnimals"
+            android:label="Animals"/>
+        <activity android:name=".Traditional.Animals.SeaAnimals"
+            android:label="Sea Animals"/>
+        <activity android:name=".Flower.FlowerIndex"
+            android:label="Flowers"/>
+        <activity android:name=".Toys.ToysIndex"
+            android:label="Toys"/>
+        <activity android:name=".Box.BoxIndex"
+            android:label="Boxes"/>
+        <activity android:name=".Butterfly.ButterflyIndex"
+            android:label="Butterfly"/>
+        <activity android:name=".Clothes.ClothesIndex"
+            android:label="Clothes"/>
+        <activity android:name=".Heart.HeartIndex"
+            android:label="Heart"/>
+        <activity android:name=".Plane.PlaneIndex"
+            android:label="Plane"/>
+        <activity android:name=".Origami.PaperIndex"
+            android:label="Paper"/>
+        <activity android:name=".Origami.TipsIndex"
+            android:label="Tips"/>
+        <activity android:name=".Traditional.TraditionalBirdsGrid"
+            android:label="Birds"/>
+        <activity android:name=".Traditional.Animals.TaditionalAnimalsGrid"
+            android:label="Animals"></activity>
+        <activity android:name=".Traditional.Animals.SeaAnimalsGrid"
+            android:label="Sea Animals"></activity>
+        <activity android:name=".Toys.ToysIndexGrid"
+            android:label="Toys"></activity>
+        <activity android:name=".Plane.PlaneIndexGrid"
+            android:label="Plane"></activity>
+        <activity android:name=".Heart.HeartIndexGrid"
+            android:label="Heart"></activity>
+        <activity android:name=".Flower.FlowerIndexGrid"
+            android:label="Flowers"></activity>
+        <activity android:name=".Clothes.ClothesIndexGrid"
+            android:label="Clothes"></activity>
+        <activity android:name=".Butterfly.ButterflyIndexGrid"
+            android:label="Butterfly"></activity>
+        <activity android:name=".Box.BoxIndexGrid"
+            android:label="Boxes"></activity>
+      <!--  <activity
+            android:name=".Oragamii"
+            android:label="@string/title_activity_oragamii"
+            android:theme="@style/AppTheme.NoActionBar"></activity>-->
+    </application>
+
+</manifest>
