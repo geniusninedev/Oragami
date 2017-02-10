@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
 android:background="@drawable/backorigam"
-    tools:context="com.geniusnine.andriod.oragami.Traditional.TraditionalBirds">
+    tools:context="com.nineinfosys.andriod.oragami.Traditional.TraditionalBirds">
 
     <FrameLayout
         android:layout_width="fill_parent"

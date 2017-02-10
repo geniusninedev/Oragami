@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.geniusnine.andriod.oragami">
+    package="com.nineinfosys.andriod.oragami">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Oragamii"
+        <activity android:name="com.nineinfosys.andriod.oragami.Oragamii"
 
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -17,49 +17,49 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Traditional.TraditionalBirds"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.TraditionalBirds"
             android:label="Birds"/>
-        <activity android:name=".Traditional.Animals.TaditionalAnimals"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.Animals.TaditionalAnimals"
             android:label="Animals"/>
-        <activity android:name=".Traditional.Animals.SeaAnimals"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.Animals.SeaAnimals"
             android:label="Sea Animals"/>
-        <activity android:name=".Flower.FlowerIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Flower.FlowerIndex"
             android:label="Flowers"/>
-        <activity android:name=".Toys.ToysIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Toys.ToysIndex"
             android:label="Toys"/>
-        <activity android:name=".Box.BoxIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Box.BoxIndex"
             android:label="Boxes"/>
-        <activity android:name=".Butterfly.ButterflyIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Butterfly.ButterflyIndex"
             android:label="Butterfly"/>
-        <activity android:name=".Clothes.ClothesIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Clothes.ClothesIndex"
             android:label="Clothes"/>
-        <activity android:name=".Heart.HeartIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Heart.HeartIndex"
             android:label="Heart"/>
-        <activity android:name=".Plane.PlaneIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Plane.PlaneIndex"
             android:label="Plane"/>
-        <activity android:name=".Origami.PaperIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Origami.PaperIndex"
             android:label="Paper"/>
-        <activity android:name=".Origami.TipsIndex"
+        <activity android:name="com.nineinfosys.andriod.oragami.Origami.TipsIndex"
             android:label="Tips"/>
-        <activity android:name=".Traditional.TraditionalBirdsGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.TraditionalBirdsGrid"
             android:label="Birds"/>
-        <activity android:name=".Traditional.Animals.TaditionalAnimalsGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.Animals.TaditionalAnimalsGrid"
             android:label="Animals"></activity>
-        <activity android:name=".Traditional.Animals.SeaAnimalsGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Traditional.Animals.SeaAnimalsGrid"
             android:label="Sea Animals"></activity>
-        <activity android:name=".Toys.ToysIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Toys.ToysIndexGrid"
             android:label="Toys"></activity>
-        <activity android:name=".Plane.PlaneIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Plane.PlaneIndexGrid"
             android:label="Plane"></activity>
-        <activity android:name=".Heart.HeartIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Heart.HeartIndexGrid"
             android:label="Heart"></activity>
-        <activity android:name=".Flower.FlowerIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Flower.FlowerIndexGrid"
             android:label="Flowers"></activity>
-        <activity android:name=".Clothes.ClothesIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Clothes.ClothesIndexGrid"
             android:label="Clothes"></activity>
-        <activity android:name=".Butterfly.ButterflyIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Butterfly.ButterflyIndexGrid"
             android:label="Butterfly"></activity>
-        <activity android:name=".Box.BoxIndexGrid"
+        <activity android:name="com.nineinfosys.andriod.oragami.Box.BoxIndexGrid"
             android:label="Boxes"></activity>
       <!--  <activity
             android:name=".Oragamii"

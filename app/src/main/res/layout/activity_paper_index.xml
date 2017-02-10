@@ -4,7 +4,7 @@
     android:id="@+id/activity_paper_index"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.geniusnine.andriod.oragami.Origami.PaperIndex">
+    tools:context="com.nineinfosys.andriod.oragami.Origami.PaperIndex">
 
     <WebView
         android:layout_width="match_parent"
